@@ -4,7 +4,7 @@ public class testFactory {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ObjetConnecteFactory O1 = new ObjetConnecteFactory();
+		ObjetConnecteFactory O1 = new ObjetConnecteFactory(); // cf ObjetConnecteFactory couplage Fort plutôt utiliser méthode statique
 		ObjetConnecte t1 = O1.getObjetConnecte(Type.Telephone, 10);
 		ObjetConnecte t2 = O1.getObjetConnecte(Type.Tablette, 12);
 		ObjetConnecte t3 = O1.getObjetConnecte(Type.Enceinte, 20);
