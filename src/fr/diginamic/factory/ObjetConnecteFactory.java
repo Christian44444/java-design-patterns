@@ -1,6 +1,5 @@
 package fr.diginamic.factory;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction;
 
 public class ObjetConnecteFactory {
 	public ObjetConnecte getObjetConnecte(Type t1, int limiteVolt) {
